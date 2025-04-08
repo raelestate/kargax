@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* { -webkit-tap-highlight-color: transparent; }
+  :root{
+    --color1: #101010;
+    --bg_color1: #EFE7D8;
+    --white: #fff;
+    --black: #000;
+    --green: #0b8d41;
+
+    --main-font: "Nunito", sans-serif;
+    --font-small: 16px;
+    --font-medium: 50px;
+    --font-large: calc(clamp(3.75rem, 10.256vw + 1.442rem, 13.75rem));
+}
+
+/* SNIPPET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline; -webkit-text-size-adjust: 100%;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+body, html{overflow-x: hidden; font-family: var(--main-font);}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+*, ::after, ::before { border: 0 solid; box-sizing: border-box; }
+.cust_btn{display: block; width: 100%; height: 50px; line-height: 50px; text-align: center; background: 0 0; color: #fff; font-size: 17px; font-family: var(--main-font); border-radius: 50px; display: flex; justify-content: center; align-items: center; column-gap: 10px;max-width: 210px;border: 1px solid;}
+.cust_btn:hover{background: var(--color1);transition: 0.3s ease-in-out;}
+span, small{display: block;}
+.col2{-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 0; -moz-column-gap: 0; column-gap: 0; display: inline-block; width: 100%;}
+.col3{-webkit-column-count: 3; -moz-column-count: 3; column-count: 3; -webkit-column-gap: 0; -moz-column-gap: 0; column-gap: 0; display: inline-block; width: 100%;}
+body, html {background: var(--white);}
+
+body.modal-open { overflow: hidden; }
+a{text-decoration: unset; color: var(--black);}
+a:hover{text-decoration: underline}
+/* JARALLAX */
+#jarallax-container-1 { clip-path: unset !important; }
+
+/* OTHERS */
+h1,h2,h3,h4,h5,h6{font-family: var(--main-font); color: var(--black); font-size: var(--font-large); font-weight: 100;}
+p{color: var(--white); font-size: var(--font-small);}
+.container{ position: relative; min-height: 0; width: 100%; max-width: 1440px;margin: auto;overflow: hidden;}
+.fixed_section {   position: fixed !important;   top: 0;   left: 0;   right: 0;   z-index: 999; }
+
+.container{ position: relative; min-height: 0; width: 100%; max-width: 1440px; margin: auto; overflow: hidden; }
+
+
+
+
+
+#login_section{}
+    .login_holder{display: flex;height: 100vh;align-items: center;gap: 80px;flex-wrap: wrap;}
+    .login_image{}
+    .login_image figure{}
+    .login_image figure img{width: 100%;max-width: 820px;height: 100vh;object-fit: cover;}
+
+    .login_form{width: 100%;max-width: 433px;}
+    .login_logo{}
+    .login_logo figure{}
+    .login_logo figure img{width: 100%;}
+    .login_logo span{}
+    .login_logo h2{font-size: 30px;font-weight: bolder;letter-spacing: 5px;text-align: center;}
+
+    .login_form form{}
+    .login_form fieldset{}
+    .login_form fieldset legend{font-size: 25px;font-weight: bold;}
+    .login_form fieldset input{ position:relative; width: 100%;height: 38px;background: unset;border: 1px solid #0000004a;padding: 10px 10px 10px 30px;font-family: var(--main-font);}
+    .login_form fieldset input::before{content: ''; position: absolute;}
+    .login_form fieldset label{font-size: 15px;font-weight: 600;}
+    
+    .login_form fieldset .username{margin-top: 20px;}
+    .login_form fieldset .username label{display: block;margin-bottom: 10px;font-size: 15px;}
+    .login_form fieldset .username input{}
+
+    .login_form fieldset .password{margin-top: 20px;}
+    .login_form fieldset .password label{display: block;margin-bottom: 10px;font-size: 15px;}
+    .login_form fieldset .password input{}
+
+    .login_form fieldset .form-links{display: flex;align-items: center;justify-content: space-between;}
+    .login_form fieldset .form-links .link1{display: flex;flex-direction: row-reverse;justify-content: start;align-items: center;gap: 10px;position: relative;}
+    .login_form fieldset .form-links .link1 label{}
+    .login_form fieldset .form-links .link1 input{width: 20px;max-width: unset;height: 20px;}
+
+      
+    .login_form fieldset .form-links .link2{height: 6px;}
+    .login_form fieldset .form-links .link2 a{}
+    .login_form fieldset .form-links .link2 a:hover{}
+
+    .login_form fieldset .form-links button{}
+    .login_form fieldset .form-links button:hover{}
+
+    .login_form form {}
+
+.login_form fieldset {}
+.login_form fieldset legend { font-size: 35px; font-weight: bold; }
+.login_form fieldset label { font-size: 15px; font-weight: 600; }
+.login_form fieldset input[type="text"],
+.login_form fieldset input[type="password"] { width: 100%;  height: 38px; background: unset; border: 1px solid #0000004a; padding: 10px 10px 10px 35px; /* spacing for icon */ font-family: var(--main-font); }
+.login_form fieldset .username, .login_form fieldset .password { margin-top: 20px; position: relative; }
+.login_form fieldset .username label, .login_form fieldset .password label { display: block; margin-bottom: 10px; }
+.login_form fieldset .username .icon,
+.login_form fieldset .password .icon { position: absolute; top: 41%; left: 10px; color: #666; pointer-events: none; transform: translateY(50%); }
+.login_form fieldset .username svg, .login_form fieldset .password svg { width: 16px; height: 16px; }
+
+.login_form fieldset .form-links .link1 { display: flex; flex-direction: row-reverse; justify-content: start; align-items: center; gap: 10px; margin-top: 10px; }
+.login_form fieldset .form-links .link1 input { width: 20px; height: 20px; }
+.login_form fieldset .form-links .link2 a { text-decoration: none; color: var(--green); font-size: 14px; font-weight: 700;}
+.login_form fieldset .form-links .link2 a:hover { text-decoration: underline; }
+.login_form fieldset .form-btn { margin-top: 15px; padding: 10px 20px; background-color: green; border: none; color: var(--white); border-radius: 6px; cursor: pointer; font-family: var(--main-font); font-weight: 700; display: block;text-align: center;}
+.login_form fieldset .form-btn:hover { background-color: #0b8d41; }
+.login_logo svg{width: 100%;}
+.show-password { position: absolute;  right: 20px;  top: 60%;}
+
+  /* DASHBOARD */
+.topbar { background-color: #00221a; /* deep green */ color: white; display: flex; justify-content: space-between; align-items: center; padding: 8px 16px; height: 48px; border-bottom: 1px solid #00372a; font-family: sans-serif; }
+.logo img { height: 32px; }
+.topbar-right { display: flex; align-items: center; gap: 16px; }
+.icon {    width: 20px;height: 20px;}
+.user-profile { display: flex; align-items: center; gap: 8px; }
+.avatar { width: 32px; height: 32px; border-radius: 50%; background-color: #d9e8f1; border: 2px solid #90c2e7; }
+.user-profile span { font-size: 14px; color: white; }
+.logo svg{width: 150px;}
+
+.box_holder1{display: flex;margin: 40px 0;gap: 10px;}
+.box1{width: 520px;height: 300px;background: var(--white);box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);-webkit-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);-moz-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);position: relative;padding: 10px;}
+.box1-header{display: flex;gap: 10px;}
+.box1-header svg{width: 20px;height: 20px;}
+.box1-header h2{font-size: 20px;font-weight: 700;}
+.box1-image{text-align: center;}
+.box1-image svg{width: auto;height: 220px;}
+.box1-footer-text{position: absolute;bottom: 20px;left: 0;right: 0;}
+.box1-footer-text h2{font-size: 15px;text-align: center;color: #75817D;font-weight: 700;}
+
+.box2{width: 520px;height: 300px;box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);-webkit-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);-moz-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);position: relative;padding: 10px;}
+.box2-header{display: flex;justify-content: space-between;}
+.box2-title{display: flex;gap: 10px;}
+.box2-title svg{width: 20px;height: 20px;}
+.box2-title h2{font-size: 20px;font-weight: 700;}
+.box2-select{}
+.box2-select select{background: unset;border-radius: 10px;border: 1px solid var(--green);height: 31px;width: 140px;font-size: 15px;font-weight: 700;font-family: var(--main-font);padding-left: 10px;cursor: pointer;}
+.box2-select select option{cursor: pointer;}
+.box2-body{display: flex;flex-direction: column;gap: 20px;padding-top: 40px;}
+.attendance-entry{display: flex;justify-content: space-between;font-weight: 700;color: grey;}
+.attendance-entry span{}
+.attendance-entry span:first-child{}
+.attendance-entry span:nth-child(2){}
+.attendance-entry span:nth-child(3){}
+.attendance-entry span:last-child{}
+.attendance-entry span .date{}
+.attendance-entry .status{font-weight: 700;}
+.status.out { color: red; }
+.status.in { color: var(--green); }
+.attendance-entry span .time{}
+.box2-footer{position: absolute;bottom: 20px;right: 0;left: 0;text-align: center;}
+.box2-footer a{color: var(--green);font-weight: 700;}
+.box2-footer a:hover{}
+
+.box3{width: 520px;height: 300px;box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);-webkit-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);-moz-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.18);padding: 10px;}
+.box3-header{display: flex;gap: 10px;}
+.box3-header svg{width: 20px;height: 20px;}
+.box3-header h2{font-size: 20px;font-weight: 700;}
+.box3-image{text-align: center;}
+.box3-image svg{width: auto;height: 220px;}
+.box3-footer-text{display: flex;align-items: center;}
+.box3-footer-text h2{font-size: 15px;font-weight: 700;}
+.box3-footer-text h2 a{}
+.box3-footer-text h2 a:hover{}
+
+.box-holder2{display: flex;}
+.box-holder2 .box1{}
+.box-holder2 .box1-header{}
+.box-holder2 .box1-header svg{}
+.box-holder2 .box1-header h2{}
+
+.box-holder2 .box1-image{}
+.box-holder2 .box1-image svg{}
+.box-holder2 .box1-footer-text{}
+.box-holder2 .box1-footer-text h2{}
+.box-holder2 .box1-footer-text h2 a{}
+.box-holder2 .box1-footer-text h2 a:hover{}
+
+.box-holder2 .box2{}
+.box-holder2 .box2-header{}
+.box-holder2 .box2-tiyle{}
+.box-holder2 .box2-tiyle svg{}
+.box-holder2 .box2-tiyle h2{}
+
+.box-holder2 .box2-select{}
+.box-holder2 .box2-select select{}
+.box-holder2 .box2-select select option{}
+.box-holder2 .box2-body{}
+.box-holder2 .requests{}
+.box-holder2 .request-head{}
+.box-holder2 .request-head h2{font-size: 30px;}
+.box-holder2 .request-head .request-body{}
+.box-holder2 .request-head .request-body h2{}
+.box-holder2 .leave-credits{}
+.box-holder2 .leave-body{}
+.box-holder2 .leave-body h2{font-size: 20px;}
+.box-holder2 .leave-credits-body{}
+.box-holder2 .leave-credits-item{}
+.box-holder2 .leave-credits-item h2{}
+
+.box-holder2 .attendance{}
+.box-holder2 .attendance h2{}
+.box-holder2 .attendance a{}
+.box-holder2 .attendance a span{}
+.box-holder2 .attendance a span svg{}
+.box-holder2 .attendance a:hover{}
