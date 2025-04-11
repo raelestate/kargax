@@ -1,0 +1,21 @@
+@media only screen and (max-width :1500px) {
+    .login_form {margin: 0 60px 0 0; }
+}
+@media only screen and (max-width :1400px) {
+    .login_image figure img { max-width: 660px; } 
+    .login_form {margin: 0 40px 0 0; }
+}
+@media only screen and (max-width :1300px) {
+    .login_form {margin: 0 10px 0 0; }
+}
+@media only screen and (max-width :1200px) {
+    .login_image figure img {max-width: 470px; }
+}
+@media only screen and (max-width :1000px) {
+    .login_image { display: none; }
+    .login_holder{height: unset; display: unset; }
+    .login_form{position:absolute; inset: 0; margin: auto; padding: 0 10px;}
+    .login_form fieldset { width: 100%; max-width: 420px; margin: auto; }
+    .box_holder1 { flex-direction: column; } 
+    .box-holder2 { flex-direction: column; }
+}
